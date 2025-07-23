@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+     
+}
+.font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navber ul{
+    display: flex; gap: 40px;
+    list-style: none;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  align-items: center;
+  border: 1px solid black;
+}
+.navber ul a{
+    text-decoration: none;
+   color: rgb(137, 135, 161);
+}
+.mix{
+  color:rgb(37, 36, 50);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.market{
+    color: #000000;
+}
+.banner{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+}
+
+.always{
+    color: rgb(233, 90, 8);
+    
+    font-size: 4rem;
+    font-weight: 700;
+}
+.always-cng{
+    color: rgb(0, 0, 0);
+}
+.banner-description{
+color: rgba(0, 0, 0, 0.5);
+margin-top: 30px;
+font-size: 1.4rem;
+
+}
+.plants{
+  text-align: center;
+}
+.section-plants{
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.card-title{
+    font-weight: 700;
+font-size: 3rem;
+color: rgb(233, 90, 8);
+}
+.card-descripton{
+color: rgba(0, 0, 0, 0.5);
+font-size: 1.4rem;
+}
+.Plants{
+    color: rgb(0, 0, 0);
+}
+.plants-child{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.right-plants img{
+max-width: 100%;
+}
+.card-items{
+    text-align: center;
+}
+.cards-title{
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .cards-price{
+        color: rgb(17, 17, 17);
+        margin-bottom: 10px;
+    }
+    .btn {
+  width: 100%;             
+  padding: 12px 0;         
+  background-color: #f25c05; 
+  color: white;            
+  font-size: 16px;         
+  font-weight: bold;
+  border: none;            
+  border-radius: 4px;      
+
+  
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+    
+
+
+@media screen and (max-width:576px) {
+    .none{
+        display: none;
+    }
+    .navber{
+        margin: 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+     
+    }
+    .left-plants{
+        padding: 15px;
+    }
+}
