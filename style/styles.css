@@ -89,6 +89,7 @@
 .card-descripton {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.4rem;
+    margin-top: 20px;
 }
 
 .Plants {
@@ -257,7 +258,37 @@
   height: 30px;
   margin-right: 30px;
 }
-
+.latest{
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.latest-pic-container{
+    display: flex;
+}
+.latest{
+    padding: 20px;
+}
+.latest-title{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.latest-right{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.latest-right img{
+    border-radius: 25px;
+   
+   
+}
+.latest-left img{
+    border-radius: 10px;
+}
+.latest-left{
+    display: grid;
+}
 @media screen and (max-width:576px) {
     .none {
         display: none;
