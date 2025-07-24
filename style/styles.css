@@ -288,4 +288,50 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
+    .flower-container{
+flex-direction: column;
+    }
+    .flower-section{
+padding: 20px;
+margin-top: 10px;
+   
 }
+
+.left-flower img {
+    width:370px;
+}
+.left-flower{
+    margin-top: 5px;
+}
+.join-container{
+    width: 100%;
+}
+.fieldset {
+    width: 250px;
+    height: 51px;
+    padding-left: 10px;
+}
+.btn-2 {
+    width: 120px;
+    height: 52px;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    border: none;
+  text-align: center;
+
+}
+.join h1{
+    font-size: 1.5rem;
+}
+.footer-container{
+    flex-direction: column;
+    padding: 15px;
+}
+.footer-menu{
+    
+    grid-template-columns:repeat(1,1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
