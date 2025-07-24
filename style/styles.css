@@ -276,9 +276,7 @@ margin-left: 40px;
     text-align: center;
     margin-top: 60px;
 }
-.latest-pic-container{
-    display: flex;
-}
+
 .latest{
     padding: 20px;
 }
@@ -286,24 +284,83 @@ margin-left: 40px;
     margin-top: 60px;
     margin-bottom: 70px;
 }
-.latest-right{
-    padding-left: 30px;
-    padding-bottom: 15px;
+
+
+
+
+
+
+
+.latest-pic-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  color: white;
+ 
 }
-.latest-right img{
-    border-radius: 25px;
-   
-   
+.latest-pic-container button {
+    border: none;
+    background: none;
+    width: 209px;
+height: 25px;
+font-weight: 400;
+font-size: 20px;
+
 }
-.latest-left img{
-    border-radius: 10px;
+.latest-pic-container button a{
+    color: azure;
+   margin-top: 5px;
 }
-.latest-left{
-    display: grid;
+.left-images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.latest img{
-    width: 100%;
+
+.text-overlay{
+ text-align: center;
+ justify-content: center;
 }
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.img-1 {
+  background-image: url(../assets/deal-bloom.png);
+  width: 370px;
+  height: 180px;
+}
+
+.img-2 {
+  background-image: url(../assets/deal-ana.png);
+  width: 370px;
+  height: 180px;
+}
+
+.img-3 {
+  background-image: url(../assets/deal-zabo.png);
+  width: 970px;
+  height: 400px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 
 
 
@@ -390,19 +447,20 @@ display: none;
 .right-flower{
 margin-left: 10px;
 }
-.latest-pic-container{
-    flex-direction: column;
-    gap: 10px;
-}.latest-left{
-    gap: 15px;
-}
-.latest-right{
-    padding-left: 4px;
-    padding-bottom: 5px;
 
+
+
+
+
+
+
+
+.latest-pic-container{
+flex-direction: column;
 }
-.latest-right img{
-    border-radius: 15px;
-}
+  .img-3 {
+    width: 100%;         
+    height: 200px;        
+  }
 }
 
