@@ -386,13 +386,13 @@ flex-direction: column;
 
 margin-top: 15px;
 margin-left: 15px;
-margin-right: 10px;
+
    
 }
 
 .left-flower img {
     width:370px;
-    
+    margin-left: 8px;
 }
 .left-flower{
     margin-top: 5px;
