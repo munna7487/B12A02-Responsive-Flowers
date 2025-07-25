@@ -28,6 +28,9 @@
     align-items: center;
    
 }
+.navber li a{
+    color: aquamarine;
+}
 
 .navber ul a {
     text-decoration: none;
@@ -41,7 +44,7 @@
 }
 
 .market {
-    color: #000000;
+    color:black;
 }
 
 .banner {
@@ -136,10 +139,7 @@
     font-weight: bold;
     border: none;
     border-radius: 4px;
-
-
 }
-
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -285,13 +285,6 @@ margin-left: 40px;
     margin-top: 60px;
     margin-bottom: 70px;
 }
-
-
-
-
-
-
-
 .latest-pic-container {
   display: flex;
   gap: 30px;
@@ -335,38 +328,25 @@ font-size: 20px;
   background-size: cover;
   background-position: center;
 }
-
-
 .img-1 {
   background-image: url(../assets/deal-bloom.png);
   width: 370px;
   height: 180px;
 }
-
 .img-2 {
   background-image: url(../assets/deal-ana.png);
   width: 370px;
   height: 180px;
 }
-
 .img-3 {
   background-image: url(../assets/deal-zabo.png);
   width: 970px;
   height: 390px;
-
-
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-
-
-
-
-
-
-
 @media screen and (max-width:576px) {
     .none {
         display: none;
@@ -391,6 +371,7 @@ font-size: 20px;
 
     .card-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
     .card-title {
@@ -399,30 +380,35 @@ font-size: 20px;
     }
     .flower-container{
 flex-direction: column;
+
     }
     .flower-section{
-padding: 20px;
-margin-top: 10px;
+
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 10px;
    
 }
 
 .left-flower img {
     width:370px;
+    
 }
 .left-flower{
     margin-top: 5px;
+
 }
 .join-container{
     width: 100%;
 }
 .fieldset {
-    width: 250px;
+    width: 220px;
     height: 51px;
     padding-left: 10px;
 }
 .btn-2 {
     width: 120px;
-    height: 52px;
+    height: 51px;
     background-color: rgb(233, 90, 8);
     color: white;
     border: none;
@@ -448,14 +434,6 @@ display: none;
 .right-flower{
 margin-left: 10px;
 }
-
-
-
-
-
-
-
-
 .latest-pic-container{
 flex-direction: column;
 }
